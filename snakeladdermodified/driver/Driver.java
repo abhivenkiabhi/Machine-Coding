@@ -26,7 +26,7 @@ public class Driver {
     for(int i = 0;i < cntOfLadders;i++) {
       ladders.add(new Ladder(sc.nextInt(), sc.nextInt()));
     }
-    System.out.println("Enter the no. of Players " -");
+    System.out.println("Enter the no. of Players :- ");
     int noOfPlayers = sc.nextInt();
     List<Player> players = new ArrayList<>();
     for(int i = 0;i < noOfPlayers;i++) {
